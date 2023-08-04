@@ -66,7 +66,7 @@ function BlogListItem({ slug, title, date, content }) {
       <div>
         <Image
           className="rounded thumbnail"
-          src={`/photos/Thumbnails/${slug}.jpg`}
+          src={`/photos/Thumbnails/${slug}.png`}
           alt="Picture of the author"
           width={500}
           height={500}
