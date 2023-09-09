@@ -80,6 +80,7 @@ img{
 
 .thumbnail{
   border-radius: .6rem;
+  max-width: 80vw;
 }
 
 .ytcontainer{
