@@ -70,6 +70,10 @@ function BlogListItem({ slug, title, date, content }) {
           alt="Picture of the author"
           width={500}
           height={500}
+          style={{
+            borderRadius: ".6rem",
+            maxWidth: "80vw",
+          }}
         />
       </div>
       <div className="prose flex flex-col  justify-center space-y-4 text-center">

@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }) {
           {/* <script src="https://apis.google.com/js/platform.js"></script> */}
 
           <div
-            class="g-ytsubscribe"
+            className="g-ytsubscribe"
             data-channelid="UCekXweHVy0JQIiVNt_iWTSQ"
             data-layout="full"
             data-count="hidden"
@@ -77,6 +77,11 @@ function MyApp({ Component, pageProps }) {
       </header>
 
       <Component {...pageProps} />
+      <footer
+        style={{
+          paddingTop: "3rem",
+        }}
+      ></footer>
     </div>
   );
 }
